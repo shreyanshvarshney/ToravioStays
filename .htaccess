@@ -9,7 +9,7 @@ RewriteBase /ToravioStays/
 RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /ToravioStays/index.html [L]
+RewriteRule . /ToravioStays/home.html [L]
 </IfModule>
 
 # END WordPress
